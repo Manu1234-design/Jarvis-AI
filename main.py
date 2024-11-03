@@ -12,7 +12,7 @@ import speedtest
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voices', voices[0].id)
-engine.setProperty('rate', 150)
+engine.setProperty('rate', 500)
 
 
 def speak(audio):
